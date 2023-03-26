@@ -5,8 +5,12 @@ import Profile from './Profile';
 import Rightside from './Rightside';
 import AboutMe from './AboutMe';
 import CipherMap from './CipherMap';
-
-
+import Months from './Months';
+import Grid from './Grid';
+import Web from './Web';
+import Proff from './Proff';
+import Password from './Password';
+import Interest from './Interest';
 const Main = () => {
   return (
     <div className='main'>
@@ -16,6 +20,12 @@ const Main = () => {
         <Rightside/>
         <AboutMe/>
         <CipherMap/>
+        <Months/>
+        <Grid/>
+        <Web/>
+        <Proff/>
+        <Password/>
+        <Interest/>
 
     </div>
   )
