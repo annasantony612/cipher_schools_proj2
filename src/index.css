@@ -2,7 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+margin: -10px;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color:#f2f5fa;
@@ -13,6 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
 
 /* a {
   font-weight: 500;

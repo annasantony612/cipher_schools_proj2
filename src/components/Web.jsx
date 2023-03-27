@@ -15,7 +15,7 @@ const Web = () => {
               <p>On The Web</p>
             </div>
             <div className="right-flex">
-              <button style={{ backgroundColor: '#f3912e', color: 'white',borderColor:'#f3912e',paddingInline :'15px',borderRadius:'5px'}}>Edit</button>
+              <button>Edit</button>
             </div>
             
           </div>

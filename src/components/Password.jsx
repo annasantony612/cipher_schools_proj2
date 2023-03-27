@@ -8,7 +8,7 @@ const Password = () => {
               <p>Password & Security</p>
             </div>
             <div className="right-flexProff">
-              <button style={{ backgroundColor: '#f3912e', color: 'white',borderColor:'#f3912e',paddingInline :'15px',borderRadius:'5px'}}>Change</button>
+              <button >Change</button>
             </div>
             </div>
             <div className='web'>
