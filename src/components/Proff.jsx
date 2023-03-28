@@ -9,7 +9,7 @@ const Proff = () => {
               <p>Professional Information</p>
             </div>
             <div className="right-flexProff">
-              <button>Edit</button>
+              <button >Edit</button>
             </div>
             
             

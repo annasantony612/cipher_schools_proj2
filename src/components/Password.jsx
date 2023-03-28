@@ -1,5 +1,5 @@
 import React from 'react'
-
+import CustomModal3 from './CustomModal3'
 const Password = () => {
   return (
     <div> <h1 className="thin-line"></h1>
@@ -8,7 +8,8 @@ const Password = () => {
               <p>Password & Security</p>
             </div>
             <div className="right-flexProff">
-              <button >Change</button>
+
+              <CustomModal3/>
             </div>
             </div>
             <div className='web'>

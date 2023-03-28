@@ -2,7 +2,6 @@ import React from 'react';
 
 const Grid = () => {
   const divisions = Array.from({ length: 52 }, (_, i) => i + 1);
-  // Creates an array of 52 elements with values from 1 to 52
 
   return (
     <div>

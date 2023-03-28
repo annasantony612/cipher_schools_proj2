@@ -1,4 +1,5 @@
 import React from 'react';
+import  { useState } from 'react';
 import Nav from './Nav';
 import Sidebar from './SideBar';
 import Profile from './Profile';
@@ -11,12 +12,14 @@ import Web from './Web';
 import Proff from './Proff';
 import Password from './Password';
 import Interest from './Interest';
+
 const Main = () => {
+  const [name, setName] = useState('');
   return (
     <div className='main'>
         <Nav/>
         <Sidebar/>
-        <Profile/>
+        <Profile />
         <Rightside/>
         <AboutMe/>
         <CipherMap/>

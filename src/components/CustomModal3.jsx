@@ -1,16 +1,19 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
+// import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import user1 from '../assets/user1.png'
 import Button from './Button';
+
+
 const style = {
   position: 'absolute',
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: 500,
-  height:400,
+  height:330,
   bgcolor: 'background.paper',
   border: '2px solid #000',
   color:'black',
@@ -34,64 +37,52 @@ export default function BasicModal() {
       >
         <Box sx={style}>
           
-          <Typography
-id="modal-modal-title" variant="h6" component="h2">
- Profile Update
- 
-</Typography>
 <div className='cust'>
-              <div className='cust-prfl'>
-              <img src={user1} />
-              </div>
-              <div className='cust-content'>
+              <div className='cust-prfl3'>
+            
+              
+              <div className='cust-content3'>
               
                             <div className='cust-head'>
-                                First Name
+                                Current Password
                             </div>
-                            <div className='cust-area'>
+                            <div className='cust-area3'>
                                 <ul>
                               
-                                    {/* <li>Linkdin</li> */}
+                                  
                                 </ul>
                               </div>
                 </div>
-                <div className='cust-content'>
+                <div className='cust-content2'>
               
                             <div className='cust-head'>
-                                Last Name
+                                New Password
                             </div>
-                            <div className='cust-area'>
-                               
+                            <div className='cust-area3'>
+                                <ul>
+                              
+                                  
+                                </ul>
                               </div>
                 </div>
-                <div className='cust-content'>
+                <div className='cust-content2'>
               
               <div className='cust-head'>
-                Email
+                  Confirm Password
               </div>
-              <div className='cust-area'>
+              <div className='cust-area3'>
                   <ul>
                 
-                    
                   </ul>
                 </div>
-  </div>
-  <div className='cust-content'>
-              
-              <div className='cust-head'>
-               Phone number
-              </div>
-              <div className='cust-area'>
-                 
-                </div>
-                <div className='cust-btn'>
-                <Button> Save</Button> 
-                </div>
-                
+             </div>
   </div>
  
           </div>
-      
+         
+          <div className='cust-btn3'>
+                <Button> Save</Button> 
+                </div>
         </Box>
       </Modal>
     </div>

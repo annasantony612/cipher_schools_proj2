@@ -1,5 +1,5 @@
 import React from 'react'
-
+import CustomModal2 from './CustomModal2'
 const Interest = () => {
   return (
     <div><h1 className="thin-line"></h1>
@@ -8,7 +8,7 @@ const Interest = () => {
               <p>Interests</p>
             </div>
             <div className="right-flexProff">
-              <button>Edit</button>
+              <CustomModal2/>
             </div>
             </div></div>
   )

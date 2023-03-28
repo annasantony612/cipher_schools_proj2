@@ -5,6 +5,7 @@ import './App.css'
 import { Routes,Route } from "react-router-dom";
 import Main from './components/Main'
 import Login from './components/Login';
+import Followers from './components/Followers';
 
 function App() {
  
@@ -13,13 +14,8 @@ function App() {
   <Routes>
 <Route path="/" element={ <Login/>}/>
 <Route path="/Main" element={ <Main/>}/>
+<Route path="/Followers" element={ <Followers/>}/>
   </Routes>
-  
-  
-    //   <div className="App">
-  // <Main/>
-  
-  //   </div>
   )
 }
 

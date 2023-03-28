@@ -38,10 +38,6 @@ function Rightside() {
               Liked Videos
             </div>
      </div>
-      {/* <div className="Container">Profile</div>
-      <div className="Container">Courses</div>
-      <div className="Container">Wishlist</div>
-      <div className="Container">Videos</div> */}
     </div>
   );
 }
